@@ -1,14 +1,15 @@
 const header_li = [
     {
-        title : 'Developers',
+        title : 'developers',
         href : '#devs'
     },
     {
-        title : 'description',
-        href : '#'
-    },    {
+        title : 'introduction',
+        href : '/#intro'
+    }, 
+    {
         title : 'installation',
-        href : '#'
+        href : '/installation'
     },
     {
         title : 'components',
