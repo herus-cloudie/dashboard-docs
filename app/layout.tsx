@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/themeProvider";
+import Header from '@/components/custom/header'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,6 +30,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         enableSystem
         disableTransitionOnChange
         >
+          <Header />
         {children}
       </ThemeProvider>
       </body>
